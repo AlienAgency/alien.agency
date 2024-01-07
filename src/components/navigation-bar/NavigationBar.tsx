@@ -1,4 +1,4 @@
-import {ReactComponent as ViteLogo} from '@/assets/alien-agency-skinny.svg';
+import {ReactComponent as ViteLogo} from '@/assets/alien-agency.svg';
 import styles from "./NavigationBar.module.scss";
 
 export default function NavigationBar() {
