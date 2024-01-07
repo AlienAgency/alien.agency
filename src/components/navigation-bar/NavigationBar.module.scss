@@ -1,0 +1,22 @@
+.nav {
+  position: fixed;
+  z-index: 10;
+  padding: 20px;
+}
+
+.nav .logo-wrapper {
+  width: 100%;
+}
+
+.nav .logo-wrapper .logo {
+  height: 30px;
+}
+
+.nav .logo-wrapper .logo svg {
+  height: inherit;
+}
+
+.nav .logo-wrapper .logo svg path {
+  color: white;
+  fill: white;
+}
