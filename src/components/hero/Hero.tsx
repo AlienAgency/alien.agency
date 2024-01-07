@@ -13,7 +13,7 @@ export default function Hero() {
     const areControlsEnabled = false;
     const isAutoplayEnabled = true;
     const shouldVideoLoop = true;
-    const myVideoRef = useRef<HTMLVideoElement>();
+    const myVideoRef = useRef<HTMLVideoElement>(null);
     const [viewportInformation, setViewportInformation] = useState<viewportInformation>({width: 0, height: 0});
 
     useEffect(() => {
